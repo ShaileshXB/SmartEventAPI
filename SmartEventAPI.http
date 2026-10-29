@@ -1,6 +1,11 @@
 @SmartEventAPI_HostAddress = http://localhost:5290
 
-GET {{SmartEventAPI_HostAddress}}/weatherforecast/
+GET {{SmartEventAPI_HostAddress}}/api/Events
+Accept: application/json
+
+###
+
+GET {{SmartEventAPI_HostAddress}}/Display
 Accept: application/json
 
 ###
